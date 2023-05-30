@@ -211,3 +211,48 @@ body {
 #backtotop i:hover {
     color: gray;
 }
+
+.footer-container {
+    width: 90%;
+    height: 250px;
+    background-color: #ECF8F9;
+    margin-left: 5%;
+}
+
+.footer-container__lowerheads h4 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: calc(14%);
+    padding-top: 30px;
+}
+
+.footer-container__p {
+    width: calc(75%);
+    margin-top: 20px;
+    margin-left: calc(12.5%);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer-icon {
+    width: calc(50%);
+    margin-left: calc(32.5%);
+}
+
+.footer-icon_li {
+    width: calc(3%);
+    list-style-type: none;
+    display: inline-block;
+    margin-left: calc(5%);
+    margin-top: 20px;
+}
+
+.footer-icon_li i {
+    font-size: 25px;
+}
+
+.footer-icon_li:hover{
+    color: gray;
+}
